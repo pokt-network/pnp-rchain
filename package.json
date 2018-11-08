@@ -1,0 +1,36 @@
+{
+  "name": "pnp-rchain",
+  "version": "1.0.0",
+  "description": "A Pocket Network Plugin to connect a Pocket Node to the Rchain Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokt-network/pnp-rchain.git"
+  },
+  "keywords": [
+    "pocket",
+    "pokt",
+    "node",
+    "relay",
+    "crypto",
+    "blockchain",
+    "rchain",
+    "infrastructure",
+    "bitcoin"
+  ],
+  "author": "Pabel Nunez L.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pokt-network/pnp-rchain/issues"
+  },
+  "homepage": "https://github.com/pokt-network/pnp-rchain#readme",
+  "dependencies": {
+    "rchain-api": "^0.7.1-beta.2"
+  },
+  "devDependencies": {
+    "rchain-api": "^0.7.1-beta.2"
+  }
+}
