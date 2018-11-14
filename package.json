@@ -4,7 +4,7 @@
   "description": "A Pocket Network Plugin to connect a Pocket Node to the Rchain Network",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -28,9 +28,11 @@
   },
   "homepage": "https://github.com/pokt-network/pnp-rchain#readme",
   "dependencies": {
-    "rchain-api": "^0.7.1-beta.2"
+    "rchain-api": "^0.7.1-beta.2",
+    "grpc": "^1.14.1"
   },
   "devDependencies": {
-    "rchain-api": "^0.7.1-beta.2"
+    "rchain-api": "^0.7.1-beta.2",
+    "grpc": "^1.14.1"
   }
 }
